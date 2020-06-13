@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color:rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 22px; 
+    align-items: center;
+
+}
+
+.header > div {
+    margin-left: 16px;
+
+}
+.gmail:hover, .images:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.svg {
+    width: 24px;
+    height: 24px;
+    color:rgb(95, 99, 104);
+    fill: currentColor;
+}
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar:hover, .svg:hover {
+    cursor: pointer;
+}
+
+.logo {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.share-icon {
+    position: absolute;
+    left: 474px;
+    top: 174px;
+    opacity: .8;
+}
+
+.share-icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.searchbox {
+    margin: 40px auto;
+    position: relative;
+    width: 561px;
+    display: block;
+    
+}
+.input {
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    font-size: 16px;
+    position: relative;
+    border-radius: 22px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border: none;
+}
+
+.search-icon {
+    background-image: url("../images/search.svg") ;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 999;
+}
+.microphone-icon {
+    position: absolute;
+    top: 8px;
+    left: 520px;
+    background: none;
+    border: none;
+    background-image: url("../images/microphone.svg") ;
+    height: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+.grid {
+    display: grid;
+    width: 300px;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.icon {
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgba(241, 243, 244, 1);
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+
+}
+.small {
+    padding-top: 15px;
+}
+
+.Customize {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 22px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    color: rgb(26, 115, 232);
+    font-size: 14px;
+    cursor: pointer;
+}
+.customize-icon {
+    fill: currentColor;
+    color: rgb(26, 115, 232);
+    margin-right: 8px;
+    
+
+}
+.Customize:hover {
+    background-color: rgb(232, 240, 254);
+} 
+
